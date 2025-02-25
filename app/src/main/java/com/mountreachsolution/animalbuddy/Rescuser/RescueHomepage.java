@@ -1,8 +1,11 @@
 package com.mountreachsolution.animalbuddy.Rescuser;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowInsetsController;
@@ -18,6 +21,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.mountreachsolution.animalbuddy.R;
+import com.mountreachsolution.animalbuddy.User.Bitprecussion;
+import com.mountreachsolution.animalbuddy.User.Feedback;
 import com.mountreachsolution.animalbuddy.User.UserHomepage;
 
 public class RescueHomepage extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -60,6 +65,27 @@ public class RescueHomepage extends AppCompatActivity implements BottomNavigatio
         } else if(item.getItemId()==R.id.RProfil){
             getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,rescuProfil).commit();
         }
+        return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.rescuemenut,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId()==R.id.RFeedback){
+            Intent i = new Intent(RescueHomepage.this, AllFeedBack.class);
+            startActivity(i);
+
+        } else if (item.getItemId() == R.id.RHistrory) {
+            Intent i = new Intent(RescueHomepage.this, Histrory.class);
+            startActivity(i);
+
+        }
+
         return true;
     }
 }
