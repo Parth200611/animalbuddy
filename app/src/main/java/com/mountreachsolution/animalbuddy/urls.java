@@ -13,6 +13,8 @@ public class urls {
     public static String Addacceptpost=address+"Addacceptpost.php";
     public static String removehelppost=address+"removehelppost.php";
     public static String getFeddback=address+"getFeddback.php";
+    public static String getHistory=address+"getHistory.php";
+    public static String getStatus=address+"getStatus.php";
 
 
 }
