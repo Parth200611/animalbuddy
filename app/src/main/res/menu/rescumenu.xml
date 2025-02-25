@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/RViewComplain"
+        android:title="View Complaint"
+        android:icon="@drawable/baseline_assignment_24"
+        /> <item
+    android:id="@+id/RNgo"
+    android:title="NGO and Veternary Care"
+    android:icon="@drawable/baseline_access_time_24"
+    /> <item
+    android:id="@+id/RProfil"
+    android:title="Profil"
+    android:icon="@drawable/baseline_person_24"
+    />
+
+</menu>
