@@ -1,8 +1,11 @@
 package com.mountreachsolution.animalbuddy.User;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowInsetsController;
@@ -59,6 +62,27 @@ public class UserHomepage extends AppCompatActivity implements BottomNavigationV
         } else if(item.getItemId()==R.id.UProfil){
             getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,userprofil).commit();
         }
+        return true;
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.usermenut,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId()==R.id.UFeedback){
+            Intent i = new Intent(UserHomepage.this, Feedback.class);
+            startActivity(i);
+
+        } else if (item.getItemId() == R.id.UPrecusion) {
+            Intent i = new Intent(UserHomepage.this, Bitprecussion.class);
+            startActivity(i);
+
+        }
+
         return true;
     }
 }
