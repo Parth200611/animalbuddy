@@ -15,6 +15,7 @@ public class urls {
     public static String getFeddback=address+"getFeddback.php";
     public static String getHistory=address+"getHistory.php";
     public static String getStatus=address+"getStatus.php";
+    public static String getNgo=address+"getNgo.php";
 
 
 }
