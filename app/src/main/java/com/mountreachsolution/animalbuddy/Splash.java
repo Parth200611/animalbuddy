@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.mountreachsolution.animalbuddy.Rescuser.RescueHomepage;
+import com.mountreachsolution.animalbuddy.User.UserHomepage;
 
 public class Splash extends AppCompatActivity {
 

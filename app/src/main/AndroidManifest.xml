@@ -13,11 +13,13 @@
         android:theme="@style/Theme.AnimalBuddy"
         tools:targetApi="31">
         <activity
-            android:name=".RescueHomepage"
-            android:exported="false" />
+            android:name=".Rescuser.RescueHomepage"
+            android:exported="false"
+            android:theme="@style/showactionbar"/>
         <activity
-            android:name=".UserHomepage"
-            android:exported="false" />
+            android:name=".User.UserHomepage"
+            android:exported="false"
+            android:theme="@style/showactionbar"/>
         <activity
             android:name=".RegisterNow"
             android:exported="false" />
