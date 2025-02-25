@@ -12,6 +12,7 @@ public class urls {
     public static String getAllRequest=address+"getAllRequest.php";
     public static String Addacceptpost=address+"Addacceptpost.php";
     public static String removehelppost=address+"removehelppost.php";
+    public static String getFeddback=address+"getFeddback.php";
 
 
 }

@@ -38,7 +38,7 @@ public class Feedback extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_feedback);
-        getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.back));
+        getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.green));
         getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.white));
 
         // Getting username from SharedPreferences
