@@ -16,6 +16,7 @@ public class urls {
     public static String getHistory=address+"getHistory.php";
     public static String getStatus=address+"getStatus.php";
     public static String getNgo=address+"getNgo.php";
+    public static String animalbite=address+"animalbite.php";
 
 
 }
