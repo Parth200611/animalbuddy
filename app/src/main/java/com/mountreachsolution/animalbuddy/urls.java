@@ -9,5 +9,9 @@ public class urls {
     public static String Posthelp=address+"postHelp.php";
     public static String Postimg=address+"Postimage.php";
     public static String AddFeedBack=address+"AddFeedBack.php";
+    public static String getAllRequest=address+"getAllRequest.php";
+    public static String Addacceptpost=address+"Addacceptpost.php";
+    public static String removehelppost=address+"removehelppost.php";
+
 
 }
