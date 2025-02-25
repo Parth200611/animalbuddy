@@ -4,6 +4,10 @@
         android:id="@+id/RHistrory"
         android:title="Rescue History"
 
+        /><item
+        android:id="@+id/RPrecussion"
+        android:title="Add Precaution"
+
         />
     <item
         android:id="@+id/RFeedback"

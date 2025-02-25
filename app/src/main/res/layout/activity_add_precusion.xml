@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:text="Add Animal Bite Precautions "
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginBottom="32dp"
+        />
+
+
+    <EditText
+        android:id="@+id/animalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Animal Name"
+        android:padding="12dp"
+        android:background="@drawable/rtback"/>
+
+    <EditText
+        android:id="@+id/precautionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Precaution"
+        android:padding="10dp"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rtback"/>
+
+    <Button
+        android:id="@+id/addPrecautionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Precaution"
+        android:padding="10dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+       android:layout_marginTop="16dp"/>
+</LinearLayout>

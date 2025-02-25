@@ -84,6 +84,10 @@ public class RescueHomepage extends AppCompatActivity implements BottomNavigatio
             Intent i = new Intent(RescueHomepage.this, Histrory.class);
             startActivity(i);
 
+        } else if (item.getItemId() == R.id.RPrecussion) {
+            Intent i = new Intent(RescueHomepage.this, AddPrecusion.class);
+            startActivity(i);
+
         }
 
         return true;
