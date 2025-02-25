@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="108dp"
         android:id="@+id/bottomnevigatiomuserhome"
-        app:menu="@menu/usermenu"
+        app:menu="@menu/rescumenu"
         android:layout_alignParentBottom="true"
         app:itemRippleColor="@color/back"
         app:itemIconTint="@color/black"

@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="4dp"
-                    android:text="Welcome to Rescue Wings !!"
+                    android:text="Welcome to AnimalBuddy !!"
                     android:textColor="@color/green"
                     android:textSize="16sp" />
             </LinearLayout>
