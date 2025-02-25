@@ -35,7 +35,7 @@ public class Loginactivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_loginactivity);
-        getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.green));
+        getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.back));
         getWindow().setNavigationBarColor(ContextCompat.getColor(this,R.color.white));
 
         title = findViewById(R.id.title);
