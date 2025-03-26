@@ -54,6 +54,7 @@ public class RescueHomepage extends AppCompatActivity implements BottomNavigatio
     ViewComplain viewComplain=new ViewComplain();
     ViewNgo viewNgo = new ViewNgo();
     RescuProfil rescuProfil = new RescuProfil();
+    AddEvent addEvent = new AddEvent();
 
 
     @Override
@@ -62,6 +63,8 @@ public class RescueHomepage extends AppCompatActivity implements BottomNavigatio
             getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,viewComplain).commit();
         }else if(item.getItemId()==R.id.RNgo){
             getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,viewNgo).commit();
+        }else if(item.getItemId()==R.id.addevent){
+            getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,addEvent).commit();
         } else if(item.getItemId()==R.id.RProfil){
             getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayoutuserhome,rescuProfil).commit();
         }

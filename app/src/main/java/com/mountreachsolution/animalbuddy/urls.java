@@ -1,7 +1,7 @@
 package com.mountreachsolution.animalbuddy;
 
 public class urls {
-    public static String address="http://192.168.1.2:80/animalbuddy/";
+    public static String address="http://192.168.1.5:80/animalbuddy/";
     public static String userregister=address+"userregister.php";
     public static String login=address+"login.php";
     public static String Profildata=address+"Profildata.php";
@@ -18,6 +18,11 @@ public class urls {
     public static String getNgo=address+"getNgo.php";
     public static String animalbite=address+"animalbite.php";
     public static String addanimalbite=address+"addanimalbite.php";
+    public static String addevent=address+"addevent.php";
+    public static String eventimage=address+"eventimage.php";
+    public static String getEvent=address+"getEvent.php";
+
+
 
 
 }

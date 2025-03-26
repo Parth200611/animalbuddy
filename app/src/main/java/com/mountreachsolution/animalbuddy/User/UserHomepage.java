@@ -81,6 +81,10 @@ public class UserHomepage extends AppCompatActivity implements BottomNavigationV
             Intent i = new Intent(UserHomepage.this, Bitprecussion.class);
             startActivity(i);
 
+        }else if (item.getItemId() == R.id.UViewEvent) {
+            Intent i = new Intent(UserHomepage.this, ViewEvent.class);
+            startActivity(i);
+
         }
 
         return true;
